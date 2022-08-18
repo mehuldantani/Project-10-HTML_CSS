@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    font-family: Roboto;;
+}
+
+body{
+    background: url("https://img.freepik.com/free-photo/retro-living-room-interior-design_53876-145503.jpg?w=740&t=st=1658736372~exp=1658736972~hmac=311c3078c75c077f05413965e0086087aa07936d8a53d305cd8db53f76a2d4f4");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 60px;
+}
+
+.list{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    border-color: #fff;
+    border: 2px solid #fff;
+    border-width: 0px;
+    border-bottom-width: 2px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    width: 700px;
+    list-style-type: none;
+}
+
+.contacts-info{
+    float: right;
+    display: flex;
+}
+
+.contacts-info div{
+    margin-right: 20px;
+}
+
+.main{
+    color: #fff;
+}
+
+.content{
+    top: 35%;
+    margin-left: 150px;
+    font-size: 40px;
+    width: 40%;
+}
+
+.content button{
+    margin-top: 50px;
+    font-size: 25px;
+    width: 250px;
+    height: 60px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 50px;
+    border-color: #fff;
+    border: 2px solid #fff;
+}
+
+.popup1,.popup2{
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    background-color: #304657;
+    padding: 30px;
+}
+
+.popup1{
+    margin-left: 1000px;
+    margin-top: -250px;
+}
+
+.popup2{
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.Image{
+    background-color: #fff;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-bottom: 8%;
+}
+
+.circle,.circle1{
+    width:20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.line{
+    width: 2px;
+    height: 80px;
+    background-color: #fff;
+    margin-left: 1140px;
+    margin-top: -100px;
+}
+
+.circle{
+    margin-left: 1132px;
+}
+
+.line1{
+    width: 80px;
+    height: 2px;
+    background-color: #fff;
+    margin-left: 850px;
+    margin-top: 150px;
+}
+
+.circle1{
+    margin-left: 930px;
+    margin-top: -10px;
+}
